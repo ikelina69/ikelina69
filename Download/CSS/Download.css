@@ -1,0 +1,132 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  box-sizing: border-box;
+}
+/*intro*/
+h1 {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  justify-items: center;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+body{
+  background-image: url(/images/black.jpeg);
+  -webkit-background-image: url(/images/black.jpeg);
+  -ms-background-image: url(/images/black.jpeg);
+  background-color: black;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  animation-name: blackhole;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+/*@keyframes blackhole{
+  100%{filter: hue-rotate(360deg)}
+}*/
+.table1{
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 8px;
+  position: sticky;
+  left: 23%;
+}
+tr{
+  border: 5px solid white;
+  background-color: black;
+  text-align: center;
+}
+td{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.table{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+section{
+  background-color: transparent;
+  margin-left: 7rem;
+  margin-right: 7rem;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-bottom: 40px;
+  color: white;
+  /*color: black;*/
+  backdrop-filter: Blur(10px);
+  -webkit-backdrop-filter: Blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+#search1{
+  display: inline;
+  width: 250px;
+  height: 35px;
+  border-radius: 4px;
+  margin-top: 3px;
+  margin-right: 20px;
+}
+form{
+  display: inline;
+  float: right;
+}
+.search{
+  width: 80px;
+  height: 25px;
+  font-weight: bold;
+  background-color: black;
+  border-radius: 4px;
+  margin-top: 3px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search:hover{
+  opacity: 0.7;
+}
+.search:active{
+  opacity: 0.4;
+}
+
+.intro{
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  bottom: 0%;
+}
+h3{
+  font-size: 25px;
+}
+
+h4{
+  text-align: center;
+  opacity: 0.5;
+}
+.download-btn{
+  width: 200px;
+  height: 60px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  position: relative;
+  left: 45%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.download-btn:hover{
+  opacity: .8;
+}
+.link:hover{
+  opacity: .7;
+}
