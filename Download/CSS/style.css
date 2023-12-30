@@ -155,16 +155,6 @@ span{
   color: black;
   color: #fff;
 }
-@media(min-width: 600px){
-  body {
-    width: 100%;
-    height: 100%;
-}
-  table {
-    width: 10px;
-  }
-}
-
 .s1{
   display: inline-block;
   border: 2px solid rgba(255, 255, 255, 0.5);
@@ -178,3 +168,64 @@ span{
 .picture{
   width: 190px;
 }
+@media(min-width :768px){
+  *{
+     margin-left: 0;
+   }
+   body{  
+     width: 768px;
+   }
+   header{
+     margin-left: 0rem;
+   }
+   h1{
+     font-size: 30px;
+   }
+   .table1 {
+     width: 0px;
+     margin-left: 0rem;
+     left: 11.5%;
+   }
+   .section{
+     width: 65%;
+     margin-left: 9rem;
+   }
+  .intro{
+     font-size: 80%;
+   }
+   .nextpage{
+     margin-right: 5rem;
+   }
+ }    
+ @media(max-width: 768px){
+
+ }
+ /*@media(min-width :414px){
+  *{
+     margin-left: 0;
+   }
+   body{  
+     width: 414px;
+   }
+   header{
+     margin-left: 65px;
+   }
+   h1{
+     font-size: 10px;
+   }
+   .Pad,.Pad1{
+     display: inline-block;
+     width: 22px;
+   }
+   table {
+     width: 1px;
+     margin-left: 1.5rem;
+   }
+   section{
+     width: 70%;
+     margin-left: 3.5rem;
+   }
+   .intro{
+     font-size: 60%;
+   }
+ }    */
