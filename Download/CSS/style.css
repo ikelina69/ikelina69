@@ -17,7 +17,6 @@ body{
   background-image: url("/images/black.jpeg");
   -webkit-background-image: url("/images/black.jpeg");
   -ms-background-image: url('/images/black.jpeg');
-  background-color: black;
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
