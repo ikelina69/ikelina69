@@ -53,6 +53,9 @@ td{
   text-decoration: none;
   font-size: 20px;
 }
+.box{
+  position: relative;
+}
 .section{
   background-color: transparent;
   margin-left: 7rem;
@@ -66,9 +69,8 @@ td{
   -webkit-backdrop-filter: Blur(10px);
   border: 2px solid rgba(255, 255, 255, 0.5);
   border-radius: 10px;
-  position: relative;
 }
-/*.section::before{
+.box::before{
   content: '';
   position: absolute;
   top: -50%;
@@ -80,14 +82,14 @@ td{
   animation: blackhole 10s linear infinite;
   transform-origin: bottom right;
 }
-@keyframes {
+@keyframes blackhol{
   0%{
     transform: rotate(0deg);
   }
   100%{
     transform: rotate(360deg);
   }
-}*/
+}
 #search1{
   display: inline;
   width: 250px;
