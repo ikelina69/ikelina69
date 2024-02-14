@@ -167,7 +167,7 @@ span{
 .picture{
   width: 190px;
 }
-@media(min-width :768px){
+@media screen and (max-width :768px){
   *{
      margin-left: 0;
    }
@@ -196,10 +196,12 @@ span{
      margin-right: 5rem;
    }
  }    
- @media(max-width: 768px){
-
+ @media screen and (max-width: 768px){
+  body{
+    width: 100%;
+  }
  }
- /*@media(min-width :414px){
+ @media screen and (max-width :414px){
   *{
      margin-left: 0;
    }
@@ -217,7 +219,7 @@ span{
      width: 22px;
    }
    table {
-     width: 1px;
+     width: 0px;
      margin-left: 1.5rem;
    }
    section{
@@ -225,6 +227,6 @@ span{
      margin-left: 3.5rem;
    }
    .intro{
-     font-size: 60%;
+     font-size: 1px;
    }
- }    */
+ }    
